@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Abdul Wahid Shaik, a Data Science student passionate about software and data solutions.">
+  <title>Abdul Wahid Shaik - Portfolio</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="icon" type="image/png" href="./favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-brand">Abdul Wahid Shaik</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-toggle">☰</div>
+  </nav>
+  <div class="portfolio-container">
+    <section id="about" class="about-section">
+      <img src="./Abdul_Wahid.jpg" alt="Profile picture of Abdul Wahid Shaik" class="profile-pic">
+      <h1>Hello, I'm Abdul Wahid Shaik 👋</h1>
+      <p>
+        I'm a final-year B.Tech (Data Science) student with a passion for crafting impactful software and data-driven solutions.<br>
+        I thrive on building real-world projects and exploring cutting-edge technologies. Let's create something amazing together!
+      </p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/abdul-wahid-shaik" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/abdulwahidshaik" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="mailto:abdulwahid.shaik147@gmail.com">Email</a>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">Python</div>
+        <div class="skill-card">C</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">ReactJS</div>
+        <div class="skill-card">HTML & CSS</div>
+        <div class="skill-card">NumPy</div>
+        <div class="skill-card">Pandas</div>
+        <div class="skill-card">SQL</div>
+        <div class="skill-card">Scikit-learn</div>
+        <div class="skill-card">Git & GitHub</div>
+        <div class="skill-card">VS Code</div>
+        <div class="skill-card">JIRA</div>
+        <div class="skill-card">Postman</div>
+        <div class="skill-card">Figma</div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Heart Disease Prediction Model</h3>
+          <p>Developed a classification model using Random Forest to predict heart disease risk with 98% accuracy.</p>
+          <span class="tech">Python, Pandas, NumPy, Scikit-learn</span>
+          <a href="https://github.com/abdulwahidshaik/heart-disease-prediction" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Medical Cost Insurance Prediction</h3>
+          <p>Built a hybrid regression model using XGBoost, LightGBM, and CatBoost to predict insurance costs accurately.</p>
+          <span class="tech">Python, Pandas, NumPy, XGBoost, LightGBM, CatBoost</span>
+          <a href="https://github.com/abdulwahidshaik/insurance-cost-prediction" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Empath & SureChain (Client Projects)</h3>
+          <p>Designed and developed responsive web pages and UI features for clients at Enpsirit Technologies.</p>
+          <span class="tech">ReactJS, HTML, CSS, Figma</span>
+          <a href="https://github.com/abdulwahidshaik/client-projects" class="project-link" target="_blank" rel="noopener noreferrer">View Project</a>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required aria-required="true">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required aria-required="true">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" rows="5" required aria-required="true"></textarea>
+        </div>
+        <button type="submit" id="submit-btn">Send Message</button>
+      </form>
+      <p class="form-message" id="form-message"></p>
+    </section>
+  </div>
+  <footer class="footer">
+    <p>&copy; 2025 Abdul Wahid Shaik. All rights reserved.</p>
+  </footer>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
